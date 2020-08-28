@@ -50,10 +50,6 @@ const Portfolio = function() {
 		});
 	}
 
-	function designForm() {
-		$("#my-modal form").addClass("my-form");
-	}
-
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [

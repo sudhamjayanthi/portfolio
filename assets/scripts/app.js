@@ -53,12 +53,12 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am a Python Developer.", "love everything about code.", "build web-apps", "solve problems."
+				 "love coding.", "turn your ideas into reality", "build web-apps","am a Python Developer."
 			],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
 			// typing speed
-			typeSpeed: 1,
+			typeSpeed: 2,
 			contentType: 'text',
 			callback: function() {
 				$("#writing-text").css({"color": "#fff", "background-color": "rgb(31, 165, 243)"});

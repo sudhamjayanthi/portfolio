@@ -55,7 +55,7 @@ h6 {
 
 /*** thin bar ***/
 .thin-bar {
-  border-bottom: 5px solid #f33f12;
+  border-bottom: 5px solid #69C8FF;
 }
 
 /*** About Section ***/
@@ -100,9 +100,9 @@ h6 {
 }
 
 .cta .cta-button {
-  color: #cc4b37;
+  color: #69C8FF;
   text-transform: uppercase;
-  border: 2px solid rgba(255, 103, 68, 0.91);
+  border: 2px solid rgb(31, 165, 243);
   border-radius: 50px;
   background: white;
 }
@@ -111,7 +111,7 @@ h6 {
 .cta .cta-button:focus {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
     0 4px 14px 1px rgba(0, 0, 0, 0.15);
-  background-color: rgba(255, 103, 68, 0.91);
+  background-color: rgb(31, 165, 243);
   color: white;
 }
 
@@ -131,12 +131,12 @@ h6 {
 
 /*** Experience ***/
 #experience {
-  background-color: #4c6d86;
+  background-color: #40476D;
   padding: 6em 4em 5.6em;
 }
 
 #experience h2 {
-  color: #fff;
+  color: #FFF;
   margin-bottom: 0.7em;
 }
 
@@ -146,12 +146,12 @@ h6 {
 }
 
 #experience i {
-  color: rgb(255, 138, 89);
+  color: #69C8FF;
   font-size: 4em;
 }
 
 #experience h3 {
-  color: #fff;
+  color: #FFF;
 }
 
 .experience-topics p {
@@ -170,11 +170,11 @@ h6 {
 /*** work ***/
 #work {
   padding: 6em 4em 3em;
-  background-color: #fff;
+  background-color: #FFF;
 }
 
 #work h2 {
-  color: #ff6945;
+  color: rgb(52, 178, 250);
   margin-bottom: 0.7em;
 }
 
@@ -199,11 +199,11 @@ h6 {
   margin: 2em 0 -0.1em;
   font-family: "Maven pro", sans-serif;
   font-weight: 500;
-  color: #ff7654;
+  color: rgb(52, 178, 250);
 }
 
 .details i {
-  color: #ff7654;
+  color: rgb(52, 178, 250);
   margin-right: 1em;
 }
 
@@ -218,16 +218,16 @@ h6 {
 .details a,
 .details a:link,
 .details a:active {
-  color: rgba(255, 103, 68, 0.91);
-  border: 2px solid rgba(255, 103, 68, 0.91) !important;
-  background-color: #fff;
+  color: #69C8FF;
+  border: 2px solid #69C8FF !important;
+  background-color: #FFF;
 }
 
 .details a:hover,
 .details a:focus {
   /*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
-  background-color: rgba(255, 103, 68, 0.91) !important;
-  color: #fff;
+  background-color: #69C8FF !important;
+  color: #FFF;
 }
 
 /*** teaching ***/
@@ -252,7 +252,7 @@ h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-  background-color: rgba(255, 103, 68, 0.91);
+  background-color: rgb(31, 165, 243);
   padding: 6em 4em 5.6em;
 }
 
@@ -261,7 +261,7 @@ h6 {
 }
 
 #footer-cta p {
-  color: #fff;
+  color: #FFF;
   font-family: "Maven pro", sans-serif;
   font-weight: 500;
   font-size: 1.2em;
@@ -272,14 +272,14 @@ h6 {
 }
 
 #footer-cta a {
-  border: 2px solid #fff;
+  border: 2px solid #FFFfff;
   border-radius: 45px;
-  color: #fff;
+  color: #FFF;
 }
 
 #footer-cta a:hover {
-  background: #fff;
-  color: rgba(255, 103, 68, 0.91);
+  background: #FFF;
+  color: #69C8FF;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
     0 4px 14px 1px rgba(0, 0, 0, 0.15);
 }
@@ -291,9 +291,9 @@ h6 {
 }
 
 #footer #logo {
-  background-color: rgba(255, 103, 68, 0.91);
+  background-color: #69C8FF;
   border-radius: 50%;
-  color: #fff;
+  color: #FFF;
   padding: 0.4em;
   font-family: "Maven pro", sans-serif;
   font-size: 1.6em;

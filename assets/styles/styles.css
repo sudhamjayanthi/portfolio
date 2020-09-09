@@ -117,6 +117,12 @@ h6 {
 
 #about i {
   margin-top: 2em;
+  color: black;
+}
+
+#about i:hover {
+  color: rgb(2, 133, 185);
+  text-shadow:-5px 5px 10px rgba(0, 0, 0, 0.3) ;
 }
 
 .fa {
@@ -148,6 +154,7 @@ h6 {
 #experience i {
   color: #69C8FF;
   font-size: 4em;
+  padding: 15px;
 }
 
 #experience h3 {

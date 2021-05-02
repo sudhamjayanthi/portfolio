@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/*** General Styles  ***/
+::selection {
+  background: rgb(215, 244, 255);
+  color: rgb(71, 71, 71);
+}
+
+:not(i) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter"  !important;
+  font-weight: 400;
+}
+
+
+html {
+  background-color: #e3e3e3;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  background: #e3e3e3;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.my-button {
+  font-weight: 700;
+  transition: all 0.3s ease-in-out, color 0.2s 0.3s;
+  -webkit-transition: all 0.3s ease-in-out;
+  border-radius: 45px;
+  padding: 0.8em 2.1em;
+  outline: 0;
+}
+
+.my-button:hover {
+  cursor: pointer;
+}
+
+/*** Top Section ***/
+
+#about {
+  padding-bottom: 10em;
+  margin-top: 10em;
+  background-color: white;
+}
+
+#about img {
+  max-width: 15em;
+  position: relative;
+  bottom: 7.5em;
+}
+
+#about .details {
+  margin-top: -2em;
+}
+
+#about h2 {
+  color: #000000bb;
+  font-size: 3em;
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+#about span {
+  font-weight: 300;
+  font-size: 0.7em;
+}
+
+.cta-button {
+  color: rgb(31, 165, 243);
+  border: 2px solid rgb(31, 165, 243);
+  border-radius: 50px;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  color: white;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 14px 1px rgba(0, 0, 0, 0.15);
+  background-color: rgb(31, 165, 243);
+}
+
+.cta-button:hover .down {
+  color: white !important;
+}
+
+#about .down {
+  color: rgb(31, 165, 243);
+}
+
+#about i {
+  margin-top: 2em;
+  color: black;
+  transition: 0.3s;
+}
+
+#about i:hover {
+  transform: scale(1.2);
+  color: rgb(31, 165, 243);
+}
+
+.fa {
+  font-size: 1.2em;
+  padding: 0.1em 0.4em;
+  color: #8a8a8a;
+}
+
+.fa:hover {
+  cursor: pointer;
+}
+
+/*** Experience ***/
+#experience {
+  background-color: #1fa5f3;
+  padding: 6em 4em 5.6em;
+}
+
+#experience h2 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+#experience i {
+  color: #fffffff7;
+  font-size: 2.5em;
+  padding: 15px;
+}
+
+#experience h3 {
+  color: #fffffff7;
+  font-weight: 600;
+  font-size: 1.6em;
+  margin-bottom: 27px;
+}
+
+.experience-topics{
+  margin: 20px auto;
+}
+
+.experience-topics ul li {
+  list-style: none;
+  color: #ffffffb9;
+  /* font-family: "Maven Pro", sans-serif; */
+  /* font-weight: 400; */
+  font-size: 1.2em;
+}
+
+/*** work ***/
+#work {
+  padding: 6em 4em 3em;
+  background-color: #fff;
+}
+
+#work h2 {
+  color: rgb(52, 178, 250);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#work .tag-line {
+  color: #949494;
+  font-size: 1.2em;
+  margin-bottom: 4em;
+}
+
+#work .work-row {
+  margin-bottom: 55px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.details h3 {
+  color: #4a4a4a;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.details .platform {
+  font-size: 0.8em;
+  color: white;
+  background: rgb(0, 144, 228);
+  border-radius: 4px;
+  text-transform: lowercase;
+  width: fit-content;
+  margin-top: 10px;
+  padding: 2px 8px;
+}
+
+.details p {
+  color: #738182;
+  line-height: 1.8em;
+  letter-spacing: .5px;
+  margin-bottom: 1.8em;
+}
+
+.details a,
+.details a:link,
+.details a:active {
+  color: #69c8ff;
+  border: 1px solid #69c8ff !important;
+  font-size: 0.8em;
+}
+
+.details a:hover,
+.details a:focus {
+  /*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
+  background-color: #69c8ff !important;
+  color: #fff;
+}
+
+/*** Footer Call-to-action ***/
+#footer-cta {
+  background-color: rgb(31, 165, 243);
+  padding: 6em 4em 5.6em;
+  height: 50vh;
+}
+
+#footer-cta h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: white;
+}
+
+#footer-cta p {
+  color: rgba(255, 255, 255, 0.644);
+  font-weight: 400;
+}
+
+#startButtonDiv {
+  margin-top: 3em;
+}
+
+#footer-cta a {
+  border: 2px solid #ffffff;
+  border-radius: 45px;
+  color: #fff;
+}
+
+#footer-cta a:hover {
+  background: #fff;
+  color: #69c8ff;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 14px 1px rgba(0, 0, 0, 0.15);
+}
+

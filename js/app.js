@@ -16,12 +16,20 @@ const newProject = (name, img, tag, desc, url) => `<div class="row work-row">
   </div>
   </div>`;
 
+const renderProjects = (projects) => {
+  projects.forEach((p) => {
+    work.innerHTML += newProject(p.name, p.img, p.tag, p.desc, p.link);
+  });
+  work.innerHTML +=
+    '<p class="text-center"><em>Check out the source code of these projects on <a href="https://github.com/sudhamjayanthi" data-splitbee-event="Social Link" data-splitbee-event-type="github-after-work">my github</a></em></p> ';
+};
+
 const typeAnimation = () => {
   Typed.new("#writing-text", {
     strings: [
       "love to solve problems.",
       "turn ideas into reality.",
-      "am a Full Stack Developer.",
+      "build awesome things for web.",
     ],
     typeSpeed: 1,
     contentType: "text",
@@ -34,17 +42,7 @@ const typeAnimation = () => {
   });
 };
 
-const renderProjects = (projects) => {
-  projects.forEach((p) => {
-    work.innerHTML += newProject(p.name, p.img, p.tag, p.desc, p.link);
-  });
-  work.innerHTML +=
-    '<p class="text-center"><em>Check out the source code of these projects on <a href="https://github.com/sudhamjayanthi" data-splitbee-event="Social Link" data-splitbee-event-type="github-after-work">my github</a></em></p> ';
-};
-
 typeAnimation();
 renderProjects(PROJDATA);
 
-console.log(
-  "Hey, nice to see your interested to inspect my source code. Feel free to reach out to me on instagram/twitter for any help -- @sudhamjayanthi"
-);
+console.log("appreciate your curiousity, there's nothing much here though ;)");

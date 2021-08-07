@@ -15,14 +15,14 @@ const PROJDATA = [
   },
   {
     name: "Cleaner Essays",
-    img: "https://cdn.statically.io/og/PaulGraham's%20Essays%20Made%20Cleaner.jpg",
+    img: "https://cdn.statically.io/og/theme=dark/Paul%20Graham's%20essays%20made%20cleaner.jpg",
     tag: "react + flask",
     desc: "<a href='https://paulgraham.com/essays'>paulgraham.com</a> but made cleaner and easier to read. His essays are brilliant but hard to read, hence this!",
     link: "https://paulgraham.netlify.app",
   },
   {
     name: "MockGen",
-    img: "https://cdn.statically.io/og/Generate%20Beautiful%20Mockups.jpg",
+    img: "https://cdn.statically.io/og/theme=dark/Generate%20beautiful%20mockups.jpg",
     tag: "python - flask",
     desc: "Wanted to have clean mockups of your side projects than bare screenshots? You can now generate beautiful mockups just from website url. WORK IN PROGRESS",
     link: "#",
@@ -36,7 +36,7 @@ const PROJDATA = [
   },
   {
     name: "Upwork Job Scraper",
-    img: "https://cdn.statically.io/og/Upwork%20Job%20Scraper.jpg",
+    img: "https://cdn.statically.io/og/theme=dark/Browser%20jobs%20right%20from%20your%20CLI.jpg",
     tag: "python",
     desc: "Opening upwork.com always to check for new jobs is a tedious task, so created this script that lets me browse jobs right from CLI",
     link: "https://github.com/sudhamjayanthi/upwork-job-scraper",

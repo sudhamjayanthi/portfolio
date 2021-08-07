@@ -1,7 +1,7 @@
 {
     "name": "Sudham Jayanthi | Full Stack Developer",
     "short_name": "Sudham",
-    "start_url" : "https://www.sudham.tk/",
+    "start_url" : "/index.html",
     "icons": [
         {
             "src": "https://cdn.statically.io/img/sudham.tk/favicon/pwa_maskable_icon.png",

@@ -17,7 +17,7 @@ const PROJDATA = [
     name: "Cleaner Essays",
     img: "https://cdn.statically.io/og/theme=dark/Paul%20Graham's%20essays%20made%20cleaner.jpg",
     tag: "react + flask",
-    desc: "<a href='https://paulgraham.com/essays'>paulgraham.com</a> but made cleaner and easier to read. His essays are brilliant but hard to read, hence this!",
+    desc: "<a id='#paul' href='https://paulgraham.com/essays'>paulgraham.com</a> but made cleaner and easier to read. His essays are brilliant but hard to read, hence this!",
     link: "https://paulgraham.netlify.app",
   },
   {

@@ -201,6 +201,10 @@ html {
   margin-bottom: 1.8em;
 }
 
+#paul {
+  border: none !important;
+}
+
 .details a,
 .details a:link,
 .details a:active {

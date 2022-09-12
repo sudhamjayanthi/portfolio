@@ -1,0 +1,14 @@
+{
+    "redirects": [
+        {
+            "source": "/bee.js",
+            "destination": "https://cdn.splitbee.io/sb.js",
+            "permanent": true
+        },
+        {
+            "source": "/_hive/:splat",
+            "destination": "https://hive.splitbee.io/:splat",
+            "permanent": true
+        }
+    ]
+}
